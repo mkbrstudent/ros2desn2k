@@ -1,7 +1,7 @@
 ## Robot Package Template
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+This is the git or our 26T3 ros2desn2k robot!
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `ros2desn2k` to whatever your project's name is.
+The aim is to develop a simulated version of the robot that drives on land, and create a control system that takes in LiDAR and drives from point A to point B. If time permits, we would also like to integrate the other sensors, such as IR and GPS, however for the sake of time we will focus on LiDAR.
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+The robot in our simulations uses two motors as wheels to mimic the drive system of our water cleaning robot. The LiDAR system goes on top of the robot, and thus we can simulate the drive of the robot in water using Gazebo.
